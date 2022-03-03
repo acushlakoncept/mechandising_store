@@ -7,6 +7,6 @@ class Item < ApplicationRecord
 
 
   def truncate_price
-    price.to_f.round(2)
+    format('%.2f', price)
   end
 end
