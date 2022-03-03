@@ -15,5 +15,4 @@ class ItemsRepresenter
       }
     end
   end
-
 end

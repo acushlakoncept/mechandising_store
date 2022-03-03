@@ -5,7 +5,6 @@ class Item < ApplicationRecord
   validates :name, presence: true
   validates :price, presence: true, numericality: { greater_than: 0 }
 
-
   def truncate_price
     format('%.2f', price)
   end
